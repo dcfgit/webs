@@ -101,7 +101,7 @@ const ServiceSection = () => {
         'Acceso directo a nuestra comunidad de Whatsapp  para recibir información diaria de mercados e ideas de inversión.',
         'Acceso gratuito a la Plataforma DCF con herramientas de analisis financiero'
       ],
-      button:'/#cuenta'
+      button:'./#cuenta'
     },
     {
       icon: <TrendingUpOutlinedIcon />, 
