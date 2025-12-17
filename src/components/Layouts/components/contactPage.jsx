@@ -41,7 +41,7 @@ export default function ContactPage() {
             }}
           >
             <iframe 
-              src="https://apps.clientify.net/forms/simpleembed/show/268832" 
+              src="https://apps.clientify.net/forms/simpleembed/#/forms/embedform/268832/82492" 
               style={{
                 width: "100%",
                 height: "650px",
