@@ -16,7 +16,7 @@ const AccountOpeningSection = styled(Box)(({ theme }) => ({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundImage: 'url(/assets/cuenta.jpg)', 
+    backgroundImage: 'url(/webs/assets/cuenta.jpg)', 
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -133,45 +133,45 @@ const AccountOpening = () => {
               </Typography>
               <StepButtonGroup>
                 <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:{sm:"150px", xs:"100%"},borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
-                  <a href="https://www.iebmas.com.ar/" target='_blank'><LogoImage src="/assets/parners/iebmas.png" alt="imb" /></a>
+                  <a href="https://www.iebmas.com.ar/" target='_blank'><LogoImage src="/webs/assets/parners/iebmas.png" alt="imb" /></a>
                   
                   
                 </Button>
                 <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px", borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                  <a href="https://www.balanz.com/abrir-cuenta-2.aspx?reference=info@dcfbusiness.com" target='_blank'>
-                 <LogoImage src="/assets/parners/balanz-logo.png" alt="balanz" />
+                 <LogoImage src="/webs/assets/parners/balanz-logo.png" alt="balanz" />
                  </a>
                 </Button>
                  <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px",borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                  <a href="https://micuenta.invertironline.com/registrarme?codigoAsesor=DCF_IOL" target='_blank'> 
-                 <LogoImage src="/assets/parners/invertir-online-logo.png" alt="Invertir Online" />
+                 <LogoImage src="/webs/assets/parners/invertir-online-logo.png" alt="Invertir Online" />
                  </a>
                 </Button>
               </StepButtonGroup>
                 <StepButtonGroup>
                 <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px",borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                   <a href="https://micuenta.criteria.com.ar/#!/registration/email" target='_blank'>
-                  <LogoImage src="/assets/parners/critera-logo.png" alt="Criteria" />
+                  <LogoImage src="/webs/assets/parners/critera-logo.png" alt="Criteria" />
                   </a>
                 </Button>
                 <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px",borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                  <a href="https://seleccion-cuenta.allaria.com.ar/" target='_blank'> 
-                 <LogoImage src="/assets/parners/allaria-logo.png" alt="Allaria" />
+                 <LogoImage src="/webs/assets/parners/allaria-logo.png" alt="Allaria" />
                  </a>
                 </Button>
                  <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px",borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                  <a href="https://inviu.page.link/EeQf" target='_blank'> 
-                 <LogoImage src="/assets/parners/inviu-logo.png" alt="inviu" />
+                 <LogoImage src="//webs/assets/parners/inviu-logo.png" alt="inviu" />
                  </a>
                 </Button>
                    <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px", borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                  <a href="https://cuenta.portfoliopersonal.com/abrirCuenta?productor=TFE6NVFpZF9hW1E2RHg1QD82QFFpRUNGNltRO0ZDOjU6NDJRaTcyPUQ2W1E0NDZDMlFpNzI9RDZO" target='_blank'> 
-                 <LogoImage src="/assets/parners/ppi-logo.png" alt="PPI" />
+                 <LogoImage src="/webs/assets/parners/ppi-logo.png" alt="PPI" />
                  </a>
                 </Button>
                 <Button variant="contained"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)',minWidth:"150px", borderRadius:"20px", fontSize:"16px",textTransform:"none", '&:hover': { backgroundColor: 'transparent' } }}>
                  <a href="https://app.cocos.capital/altas?_gl=1*ykae3i*_gcl_aw*R0NMLjE3NTYzMDEzODYuQ2p3S0NBancyYnJGQmhCT0Vpd0FWSlg1R0RZZ1lUVExkUUxaU3UwU0dfc0ZYNmNLSWVDanlKb3ZVYjhCSUZWVDdpSVd1SFl3YWpUU3Fob0NuS1FRQXZEX0J3RQ..*_gcl_au*MTk0MDc0MTcxMi4xNzU2MzAxMzg2*_ga*MjA4NDEzOTU5MC4xNzM2MDA5ODQ2*_ga_GD4EVY0S82*czE3NTYzMDEzODUkbzIkZzAkdDE3NTYzMDEzODUkajYwJGwwJGgw" target='_blank'> 
-                 <LogoImage src="/assets/parners/cocoscapital.png" alt="cocos capital" />
+                 <LogoImage src="/webs/assets/parners/cocoscapital.png" alt="cocos capital" />
                  </a>
                 </Button>
               </StepButtonGroup>

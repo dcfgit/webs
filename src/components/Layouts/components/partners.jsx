@@ -16,7 +16,7 @@ const PartnersSectionContainer = styled(Box)(({ theme }) => ({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundImage: 'url(/assets/Background.png)',
+    backgroundImage: 'url(/webs/assets/Background.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 1,
@@ -49,25 +49,25 @@ const PartnersAndMarketsSection = () => {
   const theme = useTheme();
 
   const partners = [
-    { name: 'Invertironline', logo: '/assets/parners/invertir-online.png' }, 
-    { name: 'Balanz', logo: '/assets/parners/balanz.png' },
-    { name: 'BNY Mellon Pershing', logo: '/assets/parners/bnymellon.png' },
-    { name: 'Criteria', logo: '/assets/parners/critera.png' },
-    { name: 'StoneX', logo: '/assets/parners/stonex.png' }
+    { name: 'Invertironline', logo: '/webs/assets/parners/invertir-online.png' }, 
+    { name: 'Balanz', logo: '/webs/assets/parners/balanz.png' },
+    { name: 'BNY Mellon Pershing', logo: '/webs/assets/parners/bnymellon.png' },
+    { name: 'Criteria', logo: '/webs/assets/parners/critera.png' },
+    { name: 'StoneX', logo: '/webs/assets/parners/stonex.png' }
     
   ];
   const partners2 = [
-    { name: 'Allaria', logo: '/assets/parners/logos-color/allaria-color.png' },
-   { name: 'Cocos', logo: '/assets/parners/logos-color/cocos-color.png' },
-   { name: 'IEB+', logo: '/assets/parners/logos-color/iebmas-color.png' },
-   { name: 'Inviu', logo: '/assets/parners/logos-color/inviu-color.png' },
-   { name: 'PPI', logo: '/assets/parners/logos-color/ppi.png' },
+    { name: 'Allaria', logo: '/webs/assets/parners/logos-color/allaria-color.png' },
+   { name: 'Cocos', logo: '/webs/assets/parners/logos-color/cocos-color.png' },
+   { name: 'IEB+', logo: '/webs/assets/parners/logos-color/iebmas-color.png' },
+   { name: 'Inviu', logo: '/webs/assets/parners/logos-color/inviu-color.png' },
+   { name: 'PPI', logo: '/webs/assets/parners/logos-color/ppi.png' },
     
   ];
   const markets = [
-    { name: 'BYMA', logo: '/assets/parners/byma.png' },
-    { name: 'CNV', logo: '/assets/parners/cnv.png' },
-    { name: 'Matba Rofex', logo: '/assets/parners/matbaRofex.png' },
+    { name: 'BYMA', logo: '/webs/assets/parners/byma.png' },
+    { name: 'CNV', logo: '/webs/assets/parners/cnv.png' },
+    { name: 'Matba Rofex', logo: '/webs/assets/parners/matbaRofex.png' },
   ];
 
   return (

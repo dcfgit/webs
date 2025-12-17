@@ -21,7 +21,7 @@ const SectionContainer = styled(Box)(({ theme }) => ({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundImage: 'url(/assets/Background.png)', 
+    backgroundImage: 'url(/webs/assets/Background.png)', 
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 1, 

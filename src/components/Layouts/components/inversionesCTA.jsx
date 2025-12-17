@@ -41,13 +41,13 @@ const InversionesSection = styled(Box)(({ theme }) => ({
     
     zIndex: -1, 
     [theme.breakpoints.down('md')]: {
-      backgroundImage: 'url(/assets/abrir-cuenta-bg.jpg)', 
+      backgroundImage: 'url(/webs/assets/abrir-cuenta-bg.jpg)', 
       backgroundColor: 'rgba(0, 0, 0, 0.6)',
     },
   },
 
   [theme.breakpoints.down('md')]: {
-    backgroundImage: 'url(/assets/abrir-cuenta-bg.jpg)', 
+    backgroundImage: 'url(/webs/assets/abrir-cuenta-bg.jpg)', 
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
   },
@@ -80,7 +80,7 @@ const InversionesCTA = () => {
       }
     }, []);
 
-  const localVideoPath = '/assets/videos/VideoInversiones.mp4';
+  const localVideoPath = '/webs/assets/videos/VideoInversiones.mp4';
 
 
   return (
@@ -95,7 +95,7 @@ const InversionesCTA = () => {
           playsInline
           preload="metadata"
           className="hero-video-background"
-          poster="/assets/inversiones-mobile.jpg" 
+          poster="/webs/assets/inversiones-mobile.jpg" 
         >
         <source src={localVideoPath} type="video/mp4" />
         Tu navegador no soporta el video de fondo.

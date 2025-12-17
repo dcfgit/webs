@@ -16,7 +16,7 @@ const AboutSectionContainer = styled(Box)(({ theme }) => ({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundImage: 'url(/assets/Background.png)', 
+    backgroundImage: 'url(/webs/assets/Background.png)', 
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 1, 
@@ -101,7 +101,7 @@ Daniel y Fernando aportan experiencia, profesionalismo y un compromiso total con
               </Typography>
 
               <ImagePlaceholder  sx={{display:{xs:"block", sm:"none"}, padding:"0 0 20px 0"}}>
-              <img src="/assets/nosotros/Daniel-Matias-Zivkovich.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
+              <img src="/webs/assets/nosotros/Daniel-Matias-Zivkovich.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
             </ImagePlaceholder>
               
               <Typography variant="body1" sx={{color:"rgba(102, 102, 102, 1)", padding:"0 10px"}}>
@@ -121,7 +121,7 @@ Daniel y Fernando aportan experiencia, profesionalismo y un compromiso total con
 
           <Grid item xs={12} md={4} sx={{ order: { xs: 2, md: 1 }, display:{xs:"none", sm:"block"} }}>
             <ImagePlaceholder>
-              <img src="/assets/nosotros/Daniel-Matias-Zivkovich.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
+              <img src="/webs/assets/nosotros/Daniel-Matias-Zivkovich.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
             </ImagePlaceholder>
           </Grid>
 
@@ -129,7 +129,7 @@ Daniel y Fernando aportan experiencia, profesionalismo y un compromiso total con
           
           <Grid item xs={12} md={4}  sx={{ order: { xs: 2, md: 1 }, display:{xs:"none", sm:"block"} }}>
             <ImagePlaceholder>
-              <img src="/assets/nosotros/Fernando-Lopez-Baio.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
+              <img src="/webs/assets/nosotros/Fernando-Lopez-Baio.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
             </ImagePlaceholder>
           </Grid >
 
@@ -154,7 +154,7 @@ Daniel y Fernando aportan experiencia, profesionalismo y un compromiso total con
                 Fernando Lopez Baio
               </Typography>
               <ImagePlaceholder sx={{display:{xs:"block", sm:"none"}, padding:"0 0 20px 0"}}>
-              <img src="/assets/nosotros/Fernando-Lopez-Baio.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
+              <img src="/webs/assets/nosotros/Fernando-Lopez-Baio.jpeg" alt="Experts behind the advice" style={{ maxWidth: '80%', height: 'auto', borderRadius: theme.shape.borderRadius}} />
             </ImagePlaceholder>
               <Typography variant="body1" sx={{color:"rgba(102, 102, 102, 1)", padding:"0 10px"}}>
                 Fernando combina un enfoque meticuloso con una gran empatía hacia cada cliente. Su honestidad y transparencia transmiten confianza, mientras que su perfil analítico y cuantitativo asegura decisiones respaldadas por datos. Además, su experiencia en empresas PyME le otorga una visión práctica de las verdaderas necesidades del negocio y de las personas.

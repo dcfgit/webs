@@ -7,7 +7,7 @@ const FooterSection = styled(Box)(({ theme }) => ({
   color: "#fff", 
   padding: theme.spacing(6, 0),
   textAlign: 'center',
-  backgroundImage: 'url(/assets/Background-footer.jpg)',  
+  backgroundImage: 'url(/webs/assets/Background-footer.jpg)',  
   backgroundSize:"cover"
 }));
 
@@ -45,9 +45,9 @@ const FooterNavLinks = styled(Box)(({ theme }) => ({
 const Footer = () => {
   const theme = useTheme();
 
-  const logoImageUrl = '/assets/logo-blanco.webp'; 
-  const instagramImageUrl = '/assets/contacto/instagram.png'; 
-  const linkedinImageUrl = '/assets/contacto/linkedln.png'; 
+  const logoImageUrl = '/webs/assets/logo-blanco.webp'; 
+  const instagramImageUrl = '/webs/assets/contacto/instagram.png'; 
+  const linkedinImageUrl = '/webs/assets/contacto/linkedln.png'; 
   // ---
 
   return (

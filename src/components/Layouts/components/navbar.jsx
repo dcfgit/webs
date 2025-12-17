@@ -21,7 +21,7 @@ const ResponsiveNavbar = () => {
   const theme = useTheme(); 
   const isMobile = useMediaQuery(theme.breakpoints.down("md")); 
 
-  const logoImageUrl = "/assets/logo-blanco.webp"; 
+  const logoImageUrl = "/webs/assets/logo-blanco.webp"; 
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);

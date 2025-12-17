@@ -17,7 +17,7 @@ const FeatureSectionContainer = styled(Box)(({ theme }) => ({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundImage: 'url(/assets/Background.png)', 
+    backgroundImage: 'url(/webs/assets/Background.png)', 
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     opacity: 1, 
@@ -75,7 +75,7 @@ const PlatformFeaturesSection = () => {
       description:
         'Construye y personaliza tu cartera de inversión en minutos. Selecciona activos, asigna pesos y visualiza su rendimiento en tiempo real. Monitorea diversificación, ganancias y métricas clave para tomar decisiones informadas, todo desde un panel intuitivo y seguro.',
       buttonText: 'Ingresar a Plataforma DCF',
-      image: '/assets/app-landing.png', 
+      image: '/webs/assets/app-landing.png', 
       imageAlt: 'Captura de pantalla de la interfaz de portfolio',
       imageLeft: true, 
     },
@@ -84,7 +84,7 @@ const PlatformFeaturesSection = () => {
       title: 'Carteras recomendadas',
       description:
         'Descubre carteras prearmadas según diferentes perfiles de riesgo y objetivos de inversión. Explora opciones "Conservador", "Moderado" o "Agresivo" con sus descripciones, rentabilidad esperada y métricas clave. Actualizamos de manera continua las propuestas para que elijas la mejor se adapte a tus necesidades.',
-      image: '/assets/carteras.png', 
+      image: '/webs/assets/carteras.png', 
       imageAlt: 'Captura de pantalla de carteras recomendadas',
       imageLeft: false,
     },
@@ -96,7 +96,7 @@ const PlatformFeaturesSection = () => {
       description:
         'Crea y personaliza listas con tus activos favoritos para seguirlos de cerca en un solo lugar. Visualiza cotizaciones, variaciones y gráficos de rendimiento a distintos plazos, y recibe alertas al activarlas. Con un clic, accede a datos fundamentales, métricas clave, noticias y proyecciones de precio para profundizar en cada ticker. Mantén tu cartera informada y toma decisiones rápidas sin salir de tu dashboard.',
       buttonText: 'Ingresar a Plataforma DCF',
-      image: '/assets/Watchlist.png', 
+      image: '/webs/assets/Watchlist.png', 
       imageAlt: 'Captura de pantalla de la interfaz de portfolio',
       imageLeft: true, 
     },
@@ -105,7 +105,7 @@ const PlatformFeaturesSection = () => {
       title: 'Calculdora de bonos',
       description:
         'Consulta los datos clave de cada bono (emisor, ley, vencimiento, cupón, frecuencia y moneda) y calcula fácilmente la TIR a partir del precio (o el precio a partir de la TIR). Obtén al instante intereses corridos, valor total de la operación, duración y convexidad. Además, visualiza el cronograma completo de cupones y amortizaciones y descarga la tabla de cashflows con un solo clic.', 
-    image: '/assets/calculadora-de-bonos.png', 
+    image: '/webs/assets/calculadora-de-bonos.png', 
       imageAlt: 'Captura de pantalla de carteras recomendadas',
       imageLeft: false,
     },
@@ -117,7 +117,7 @@ const PlatformFeaturesSection = () => {
       description:
         'Arma fácilmente estructuras de opciones (calls, puts, strikes y vencimientos) y calcula al instante el costo total, P/L actual, ganancia máxima, pérdida máxima y Greeks (Delta, Theta, Gamma). Visualiza un gráfico interactivo del payoff y analiza distintos escenarios de precio con detalles de P/L teórico. Guarda tus estrategias para consultarlas, compararlas y ajustarlas cuando lo necesites.',
       buttonText: '¡Quiero conocer Plataforma DCF!',
-      image: '/assets/opciones.png', 
+      image: '/webs/assets/opciones.png', 
       imageAlt: 'Captura de pantalla de la interfaz de portfolio',
       imageLeft: true, 
     },
@@ -126,7 +126,7 @@ const PlatformFeaturesSection = () => {
     //   title: 'PYMEs',
     //   description:
     //     'Descubre carteras prearmadas según diferentes perfiles de riesgo y objetivos de inversión. Explora opciones "Conservador", "Moderado" o "Agresivo" con sus descripciones, rentabilidad esperada y métricas clave. Actualizamos de manera continua las propuestas para que elijas la mejor se adapte a tus necesidades.',
-    //   image: '/assets/Pymes.png', 
+    //   image: '/webs/assets/Pymes.png', 
     //   imageAlt: 'Captura de pantalla de carteras recomendadas',
     //   imageLeft: false, // Image on the right, text on the left
     // }

@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // <--- Agrega esta línea
+  output: 'export',
+  basePath: '/webs', // <--- Agrega el nombre de tu repositorio precedido por una barra
   images: {
-    unoptimized: true, // GitHub Pages no soporta la optimización de imágenes nativa de Next.js
+    unoptimized: true,
   },
 };
 
