@@ -69,7 +69,7 @@ const ContactSection = () => {
   const contactOptions = [
     {
       id: 1,
-      icon: '/assets/contacto/direccion.png',
+      icon: '/webs//assets/contacto/direccion.png',
       title: 'Dirección',
       details: 'Maipú 728, Bernal\nCP1876, Argentina',
       isButton: false,
@@ -77,7 +77,7 @@ const ContactSection = () => {
     },
     {
       id: 2,
-      icon:'/assets/contacto/telefono.png' ,
+      icon:'/webs/assets/contacto/telefono.png' ,
       title: 'Teléfono',
       details: '+54 9 11 5463-6957',
       isButton: false,
@@ -86,7 +86,7 @@ const ContactSection = () => {
     },
     {
       id: 3,
-      icon: '/assets/contacto/email.png',
+      icon: '/webs/assets/contacto/email.png',
       title: 'E-mail',
       details: 'info@dcfinversiones.com.ar',
       isButton: false,
@@ -95,7 +95,7 @@ const ContactSection = () => {
     },
     {
       id: 4,
-      icon: '/assets/contacto/formulario.png',
+      icon: '/webs/assets/contacto/formulario.png',
       title: 'Formulario',
       buttonText: '→',
       isButton: true, 
@@ -150,7 +150,7 @@ const ContactSection = () => {
                     </Typography>
                     {option.isButton ? (
                       <Button variant="contained" size="large" sx={{ mt: 2, borderRadius: theme.shape.borderRadius, background:"rgba(0, 104, 132, 1)" }}>
-                        <a href="/contacto">{option.buttonText}</a>
+                        <a href="/webs/contacto">{option.buttonText}</a>
                         
                       </Button>
                     ) : (

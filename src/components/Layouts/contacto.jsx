@@ -42,7 +42,7 @@ const Contacto = () => {
 
       {/* BOTONES FLOTANTES DERECHA */}
        <div className="floating-buttons">
-        <button className="cta-btn" > <a href="/#cuenta">¡Abrí tu cuenta ahora!</a></button>
+        <button className="cta-btn" > <a href="/webs/#cuenta">¡Abrí tu cuenta ahora!</a></button>
         <button className="icon-btn"><a href="https://api.whatsapp.com/send?phone=541154636957&text=Buenas%20tardes%2C%20DCF%20Inversiones%2C%20quisiera%20consultar%20por%20un%20asesoramiento." target="_blank">
         <img src="/webs/assets/iconos/whatsapp.png" alt="" style={{width:"30px", height:"30px"}}/>
         </a> </button>

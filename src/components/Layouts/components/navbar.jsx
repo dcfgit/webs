@@ -28,10 +28,10 @@ const ResponsiveNavbar = () => {
   };
 
   const navLinks = [
-    { title: "Servicios", href: "/#servicios" },
-    { title: "Nosotros", href: "/#nosotros" },
-    { title: "Contacto", href: "/contacto" },
-    { title: "Abri tu cuenta", href: "/#cuenta" },
+    { title: "Servicios", href: "/webs/#servicios" },
+    { title: "Nosotros", href: "/webs/#nosotros" },
+    { title: "Contacto", href: "/webs/contacto" },
+    { title: "Abri tu cuenta", href: "/webs/#cuenta" },
   ];
 
   const drawer = (

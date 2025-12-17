@@ -92,13 +92,13 @@ const Footer = () => {
         <Typography variant="body2" sx={{padding:"20px 0 0 0"}}>Matricula CNV Nro: 2475</Typography>
 
         <FooterNavLinks>
-          <Link href="/" color="inherit" underline="none" sx={{  fontSize:"16px",fontWeight:"700", '&:hover': { textDecoration: 'underline' } }}>
+          <Link href="./" color="inherit" underline="none" sx={{  fontSize:"16px",fontWeight:"700", '&:hover': { textDecoration: 'underline' } }}>
             <Typography variant="body2"> Inicio</Typography>
           </Link>
           <Link href="./contacto" color="inherit" underline="none"  sx={{ fontSize:"16px",fontWeight:"700", '&:hover': { textDecoration: 'underline' } }}>
             <Typography variant="body2">Contacto</Typography>
           </Link>
-          <Link href="/#cuenta" color="inherit" underline="none"  sx={{ fontSize:"16px",fontWeight:"700", '&:hover': { textDecoration: 'underline' } }}>
+          <Link href="./#cuenta" color="inherit" underline="none"  sx={{ fontSize:"16px",fontWeight:"700", '&:hover': { textDecoration: 'underline' } }}>
             <Typography variant="body2">Abri tu Cuenta</Typography>
           </Link>
           <Link href="#" color="inherit" underline="none" sx={{  fontSize:"16px",fontWeight:"700",  '&:hover': { textDecoration: 'underline' } }}>

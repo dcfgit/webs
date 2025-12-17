@@ -74,7 +74,7 @@ const Landing = () => {
             Transforma tu futuro con nuestras asesorías financieras, estrategias personalizadas y tecnología de vanguardia.
           </p>
           <Button variant="outlined"  sx={{ backgroundColor: 'rgba(132, 132, 132, 0.2)', border:"1px solid #fff", borderRadius:"20px", fontSize:"16px",textTransform:"none", color:"#fff", width:"250px",     margin: "20px auto 0", '&:hover': { backgroundColor: 'transparent' } }}>
-      <a href="/#cuenta">Comienza a invertir hoy</a>
+      <a href="/webs/#cuenta">Comienza a invertir hoy</a>
           </Button>
         </div>
       </div>
@@ -109,7 +109,7 @@ const Landing = () => {
 
       {/* BOTONES FLOTANTES DERECHA */}
       <div className="floating-buttons">
-        <button className="cta-btn" > <a href="/#cuenta">¡Abrí tu cuenta ahora!</a></button>
+        <button className="cta-btn" > <a href="/webs/#cuenta">¡Abrí tu cuenta ahora!</a></button>
         <button className="icon-btn"><a href="https://api.whatsapp.com/send?phone=541154636957&text=Buenas%20tardes%2C%20DCF%20Inversiones%2C%20quisiera%20consultar%20por%20un%20asesoramiento." target="_blank">
         <img src="/webs/assets/iconos/whatsapp.png" alt="" style={{width:"30px", height:"30px"}}/>
         </a> </button>
